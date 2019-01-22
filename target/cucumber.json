@@ -1,200 +1,6 @@
 [
   {
     "line": 1,
-    "elements": [
-      {
-        "line": 9,
-        "name": "Open Multi Windows",
-        "description": "",
-        "id": "multi-bank;open-multi-windows;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5323542725,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "I am a Google chrome user",
-            "match": {
-              "location": "StepDef.step1()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 5045235502,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I access \"https://www.hsbc.com/\" Website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://www.hsbc.com/",
-                  "offset": 10
-                }
-              ],
-              "location": "StepDef.i_access_Website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 967346034,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I can see \"HSBC\" homePage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "HSBC",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDef.i_can_see_homePage(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Open Multi Windows",
-        "description": "",
-        "id": "multi-bank;open-multi-windows;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3165269972,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "I am a Google chrome user",
-            "match": {
-              "location": "StepDef.step1()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3592450012,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I access \"https://www.barclays.co.uk/\" Website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://www.barclays.co.uk/",
-                  "offset": 10
-                }
-              ],
-              "location": "StepDef.i_access_Website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 978303735,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I can see \"Barclays\" homePage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Barclays",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDef.i_can_see_homePage(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 11,
-        "name": "Open Multi Windows",
-        "description": "",
-        "id": "multi-bank;open-multi-windows;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2560872036,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "I am a Google chrome user",
-            "match": {
-              "location": "StepDef.step1()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 4118993363,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I access \"https://www.lloydsbank.com/\" Website",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://www.lloydsbank.com/",
-                  "offset": 10
-                }
-              ],
-              "location": "StepDef.i_access_Website(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 979243072,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I can see \"Lloyds\" homePage",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Lloyds",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDef.i_can_see_homePage(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
     "name": "Multi Bank",
     "description": "",
     "id": "multi-bank",
@@ -205,19 +11,19 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "open the url for chrome users",
+        "line": 13,
+        "name": "data using regular expression",
         "description": "",
-        "id": "first-single-browser-and-multiple-browser;open-the-url-for-chrome-users",
+        "id": "doing-the-data-driven-using-the-regular-expressions;data-using-regular-expression;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 2739832774,
+              "duration": 3972373478,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I am a Google chrome user",
             "match": {
               "location": "StepDef.step1()"
@@ -226,31 +32,161 @@
           },
           {
             "result": {
-              "duration": 1759701250,
+              "duration": 2593051204,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I access booking.com",
+            "line": 6,
+            "name": "title of the login page is free crm",
             "match": {
-              "location": "StepDef.step2()"
+              "location": "StepDef.title_of_the_login_page_is_free_crm()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1353077468,
+              "duration": 1291098868,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"naveenk\" and \"test@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "naveenk",
+                  "offset": 13
+                },
+                {
+                  "val": "test@123",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1494140942,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDef.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34997589,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDef.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "data using regular expression",
+        "description": "",
+        "id": "doing-the-data-driven-using-the-regular-expressions;data-using-regular-expression;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2990023083,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am a Google chrome user",
+            "match": {
+              "location": "StepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3761849948,
               "status": "passed"
             },
             "line": 6,
-            "name": "I see booking.com Home page",
+            "name": "title of the login page is free crm",
             "match": {
-              "location": "StepDef.step3()"
+              "location": "StepDef.title_of_the_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2106832457,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters \"tom\" and \"test456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tom",
+                  "offset": 13
+                },
+                {
+                  "val": "test456",
+                  "offset": 23
+                }
+              ],
+              "location": "StepDef.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1616322469,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "StepDef.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 37237389,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDef.user_is_on_home_page()"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
+    "name": "doing the data driven using the regular expressions",
+    "description": "",
+    "id": "doing-the-data-driven-using-the-regular-expressions",
+    "keyword": "Feature",
+    "uri": "datatable.feature"
+  },
+  {
+    "line": 1,
     "name": "first single browser and multiple browser",
     "description": "",
     "id": "first-single-browser-and-multiple-browser",
