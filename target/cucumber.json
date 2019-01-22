@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Open Multi Windows",
+        "description": "",
+        "id": "multi-bank;open-multi-windows;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5323542725,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am a Google chrome user",
+            "match": {
+              "location": "StepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5045235502,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.hsbc.com/\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.hsbc.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDef.i_access_Website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 967346034,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see \"HSBC\" homePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HSBC",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.i_can_see_homePage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Open Multi Windows",
+        "description": "",
+        "id": "multi-bank;open-multi-windows;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3165269972,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am a Google chrome user",
+            "match": {
+              "location": "StepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3592450012,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.barclays.co.uk/\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.barclays.co.uk/",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDef.i_access_Website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 978303735,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see \"Barclays\" homePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Barclays",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.i_can_see_homePage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Open Multi Windows",
+        "description": "",
+        "id": "multi-bank;open-multi-windows;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2560872036,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am a Google chrome user",
+            "match": {
+              "location": "StepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4118993363,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I access \"https://www.lloydsbank.com/\" Website",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.lloydsbank.com/",
+                  "offset": 10
+                }
+              ],
+              "location": "StepDef.i_access_Website(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 979243072,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I can see \"Lloyds\" homePage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lloyds",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDef.i_can_see_homePage(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Multi Bank",
+    "description": "",
+    "id": "multi-bank",
+    "keyword": "Feature",
+    "uri": "Examples.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "open the url for chrome users",
+        "description": "",
+        "id": "first-single-browser-and-multiple-browser;open-the-url-for-chrome-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2739832774,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am a Google chrome user",
+            "match": {
+              "location": "StepDef.step1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1759701250,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I access booking.com",
+            "match": {
+              "location": "StepDef.step2()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1353077468,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I see booking.com Home page",
+            "match": {
+              "location": "StepDef.step3()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "first single browser and multiple browser",
+    "description": "",
+    "id": "first-single-browser-and-multiple-browser",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
